@@ -19,7 +19,7 @@
 ```
 - Como se puede apreciar es posible insertar codigo JS en las etiquetas de script mas esto no es optimo cuando el codigo escale ó crezca y vayamso  haciendo una app compleja por eso se recomienda hacer un archivo aparte con la extensión `.js`  por aparte y mediante la propiedad `href` agregar la ruta donde encuentra el archivo js que deseo ejecutar 
 ---
-# ¿Por que al final del archivo html se agrega el `<script>`?
+## ¿Por que al final del archivo html se agrega el `<script>`?
 - Por que si lo agregamos al final no damos tiempo al navegador de cargar todo el contenido que queremos proyectar la  usuario y esto le brinda una mala experiencia al usuario, entonces dejamos esa etiqueta al final para dar tiempo de cargar todo el contenido y no ocurran fallas.
 
 
