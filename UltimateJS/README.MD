@@ -15,7 +15,7 @@
     console.log('Hola Mundo')
   </script>
   </body>
-  </html> ```
+  </html>```
 - Como se puede apreciar es posible insertar codigo JS en las etiquetas de script mas esto no es optimo cuando el codigo escale ó crezca y vayamso  haciendo una app compleja por eso se recomienda hacer un archivo aparte con la extensión `.js`  por aparte y mediante la propiedad `href` agregar la ruta donde encuentra el archivo js que deseo ejecutar 
 
 
